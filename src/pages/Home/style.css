@@ -1,0 +1,286 @@
+.body-home {
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 100px 0 106px;
+    background: #FAFAFA;
+
+    height: calc(100vh - 116px);
+    width: 100vw;
+    border-radius: 60px 60px 0 0;
+    position: relative
+}
+
+.btn-filter {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 80px;
+    height: 30px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 14px;
+
+    cursor: pointer;
+}
+
+
+
+.transactions {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-transactions {
+    width: 870px;
+    height: 58px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    margin-top: 26px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 141px 0 27px;
+
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+.header-transactions img {
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+.list-transactions {
+    height: 60px;
+    width: 870px;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-right: 140px;
+    padding-left: 0px;
+    font-size: 14px;
+    position: relative;
+    font-weight: 400;
+}
+
+.list-transactions h4 {
+    text-align: center;
+    width: 230px;
+    margin-left: 30px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.list-transactions h5 {
+    text-align: center;
+    width: 230px;
+    margin-left: 30px;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.icons {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.icons img {
+    gap: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    margin: 26px 0 0 34px;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    right: 50px;
+    top: 85px;
+
+}
+
+.card {
+    width: 236px;
+    height: 196px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    padding: 26px 33px 31px 33px;
+    margin-bottom: 16px;
+}
+
+.card h1 {
+    margin-bottom: 23px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+}
+
+.situation,
+.result {
+    display: flex;
+    justify-content: space-between;
+}
+
+.condition,
+.value {
+    height: 42px;
+    width: 81px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    font-size: 10px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+.condition h3 {
+    color: #2F2F2F;
+}
+
+.value_into {
+    color: #645FFB;
+}
+
+.value_out {
+    color: #FA8C10;
+}
+
+.result {
+    height: 34px;
+    margin-top: 17px;
+    border-top: 1px solid #EAEAEA;
+    padding-top: 17px;
+}
+
+.condition_saldo {
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F2F2F;
+}
+
+.value_saldo {
+    font-size: 14px;
+    line-height: 17px;
+    color: #3A9FF1;
+}
+
+.btn-register button {
+    all: unset;
+    width: 236px;
+    height: 46px;
+    background: #7978D9;
+    border-radius: 5px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.btn-register button:hover {
+    opacity: 0.8;
+}
+
+.lixeira {
+    position: relative;
+}
+
+
+
+
+.excluir-transacao {
+    width: 111px;
+    height: 50px;
+    background: #E4F2FD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: -5px;
+    top: 30px;
+    z-index: 1;
+}
+
+.excluir-transacao span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.btn-apagar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.btn-apagar button {
+    border: none;
+    width: 37px;
+    height: 20px;
+    margin: 3px;
+    border-radius: 4px;
+    color: #FFF;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.blue-btn {
+    background-color: #3A9FF1;
+
+}
+
+.red-btn {
+    background-color: #FF576B;
+}
+
+.arrow-up {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 0;
+    height: 0;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #E4F2FD;
+}

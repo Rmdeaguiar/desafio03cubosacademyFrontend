@@ -1,0 +1,91 @@
+.categories {
+    width: 870px;
+    height: 205px;
+    padding: 32px;
+    margin-top: 30px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #B9B9B9;
+    position: relative;
+}
+
+.btn-categories {
+    display: flex;
+    margin: 22px 0px;
+    flex-wrap: wrap;
+
+
+}
+
+.btn-categories button:hover,
+.filter-categories button:hover {
+    background-color: #7978D9;
+    color: #FFF
+}
+
+.btn-categories button {
+    border: none;
+    width: 90px;
+    height: 25px;
+    padding: 5px 8px;
+    margin: 5px;
+
+
+
+    font-size: 10px;
+    line-height: 12px;
+
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.categorie {
+    display: flex;
+}
+
+.filter-categories {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.filter-categories button {
+    all: unset;
+    width: 98px;
+    height: 30px;
+    margin-right: 18px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    text-align: center;
+    color: #000;
+
+    font-weight: 700;
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.unchecked {
+    color: #000;
+    background: #FAFAFA;
+}
+
+.checked {
+    color: #FAFAFA;
+    background: #7978D9;
+}
